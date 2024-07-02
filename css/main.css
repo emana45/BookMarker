@@ -1,0 +1,113 @@
+:root {
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+body{
+    background-color: #F7ECDF;;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(53, 46, 40);
+    width: fit-content;
+
+}
+
+h1::after{
+    content: '';
+    width:100%;
+    height: 25%;
+    position: absolute;
+    background-color: #FEC260;
+    bottom: 5px;
+    left:0;
+    z-index: -1;
+    transition: height 0.5s;
+}
+
+h1:hover::after{
+    height: 60%;
+}
+
+
+h2 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr{
+    border:none;
+    border:1px dotted black ;
+}
+
+.site-button button{
+    background-color: #d1512d;
+    transition: background-color 0.5s , border-color 0.5s ;
+}
+
+.site-button button:hover{
+
+    background-color: #bb4120;
+    border-color:#a03315 ;
+}
+
+.form-control:focus{
+    border-color: #d99c39;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+
+.form-control {
+    font-size: 1rem;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.box-container{
+    width:450px;
+    height: 240px;
+    background-color: #f8f7f5;
+}
+
+.circles div{
+    width:20px;
+    height: 20px;
+}
+
+.red-circle{
+    background-color: #F15F5D;
+}
+
+.yellow-circle{
+    background-color: #FEBE2E;
+}
+
+.green-circle{
+    background-color: #4DB748;
+}
+
+.titleOptions p{
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arrow{
+    width:25px;
+    height: 25px;
+    color: #BB4120;
+}
+
+.box-bg{
+    background-color: #0007;
+}
